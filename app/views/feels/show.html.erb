@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Post:</strong>
+  <%= @feel.post %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @feel.body %>
+</p>
+
+<%= link_to 'Edit', edit_feel_path(@feel) %> |
+<%= link_to 'Back', feels_path %>
